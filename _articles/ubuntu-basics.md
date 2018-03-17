@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Learn Ubuntu Basics
+title: Ubuntu - Learn Ubuntu Basics
 description: >
   Learn how to navigate your new Ubuntu desktop environment with a few easy tips.
 keywords:
@@ -10,7 +10,7 @@ keywords:
   - System76
 image: http://support.system76.com/images/system76.png
 hidden: false
-section: faq
+section: articles
 
 ---
 

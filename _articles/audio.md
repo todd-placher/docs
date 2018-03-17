@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Fix Audio Issues
+title: Audio - Fix Audio Issues
 description: >
   Here is how to fix several common audio issues with your computer.
 keywords:
@@ -31,7 +31,7 @@ sudo apt install pavucontrol
 rm -r ~/.config/pulse
 ```
 
-This will remove the user configuration files for pulseaudio. If you hear a faint rhythmic clicking noise and are not getting speaker output (you can run the sound test from the sound settings menu) this may be the issue. The fix is to run: 
+This will remove the user configuration files for <u>pulseaudio</u>. If you hear a faint rhythmic clicking noise and are not getting speaker output (you can run the sound test from the sound settings menu) this may be the issue. The fix is to run: 
 
 ```
 killall pulseaudio; rm -r ~/.config/pulse/*

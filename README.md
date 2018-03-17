@@ -38,7 +38,6 @@ keywords:
 
 A couple of notes:
 
-- The `title` should be phrased so a customer could say, "I want to `title`." For example, use `Upgrade Ubuntu` instead of `Upgrading Ubuntu`.
 - The `image` is a full URL to an image and will show up on social media, when shared in Slack, etc.
 
 After that, it's just the contents of the article in markdown. Feel free to use `# Heading1`, `## Heading2`, `**bold**`, `_italic_`, and other markdown to make the page look awesome.
@@ -92,9 +91,9 @@ You can embed this in other Markdown and Tags, for example, you can create an Ub
 To run a local copy of the site to see changes without pushing, install Ruby, Nodejs, and Bundler (for more info, see [this GitHub Documentation](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)):
 
 ```shell
-curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash - # Add stable NodeJS repo
-sudo apt install -y build-essential nodejs ruby ruby-dev       # Install dev tools, NodeJS, and Ruby
-sudo gem install bundler                                       # Install Bundler to manage site dependencies
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -           # Add stable NodeJS repo
+sudo apt install -y build-essential nodejs ruby ruby-dev zlib1g-dev      # Install dev tools, NodeJS, Rudy, and zlib
+sudo gem install bundler                                                 # Install Bundler to manage site dependencies
 ```
 
 Then run jekyll:

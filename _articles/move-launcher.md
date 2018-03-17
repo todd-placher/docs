@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Move the Launcher In 16.04+
+title: Ubuntu - Move the Launcher In 16.04+
 description: >
     Ubuntu 16.04 LTS introduced a way to move the Unity Launcher to the bottom of your display. Learn how to do that (and how to move it back).
 keywords:
@@ -19,7 +19,7 @@ section: articles
 
 ---
 
-Ubuntu 16.04 LTS and later includes the ability to move the Launcher at the left to the bottom edge of the screen. If you'd like to put the launcher at the bottom of the screen, then press <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd> to open a terminal window, then enter in this command:
+Ubuntu 16.04 LTS and later includes the ability to move the Launcher at the left to the bottom edge of the screen in Unity. If you'd like to put the launcher at the bottom of the screen, then press <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd> to open a terminal window, then enter in this command:
 
 ```
 gsettings set com.canonical.Unity.Launcher launcher-position 'Bottom'
